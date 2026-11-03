@@ -25,8 +25,7 @@ DATASET_PATHS = {
 }
 
 TRACKING_URI = "http://127.0.0.1:5000"
-EXPERIMENT_NAME = "food11"
-
+EXPERIMENT_NAME = "food11-v2"
 
 def get_dataloaders(dataset_name: str, batch_size: int):
     data_dir = DATASET_PATHS[dataset_name]
